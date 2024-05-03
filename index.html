@@ -78,12 +78,12 @@
               case 0:
                   // 如果點擊次數為0（即第一次點擊） - 將卡片的背景顏色設為黃色
                   //grid.classList.add('yellow');
-                  grid.textContent = "X";
+                  grid.textContent = "❌";
                   break;
               case 1:
                   // 如果點擊次數為1（即第二次點擊） - 重置顏色為灰色，為此將 clickCount 重置為 -1
                   // 因為在本函數的最後，clickCount 會增加1，所以實際上它會被設定為0，準備下一輪的點擊
-                  grid.textContent = "O";
+                  grid.textContent = "⭕️";
                   //clickCount = -1;
                   break;
           }
